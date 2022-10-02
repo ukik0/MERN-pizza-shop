@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.btn{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fe5f1e;
+    background: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fe5f1e;
+    cursor: pointer;
+    transition: .3s all ease;
+
+    &:hover{
+        color: #fff;
+        background: #fe5f1e;
+    }
+
+}
+
+.actvie{
+    font-size: 25px;
+    background: #fe5f1e;
+    color: #fff;
+}
